@@ -208,11 +208,6 @@ function setting(){
 	chown -R ccaa:ccaa /etc/ccaa/
 	chown -R ccaa:ccaa ${downpath}
 	
-	#开机自启
-	systemctl enable aria2
-	systemctl enable ccaa_web
-	systemctl enable filebrowser
-	
 	#注册服务
 	add_service
 
